@@ -71,4 +71,20 @@ body {
 
 .card-image {
   border-radius: calc(var(--border-radius) / 2);
+  aspect-ratio: 1;
+}
+
+.site-footer {
+  padding-block: 2rem;
+  text-align: center;
+  color: var(--color-gray-blue);
+  background-color: hsl(212, 45%, 87%);
+}
+
+.site-footer a {
+  color: currentColor;
+}
+
+.site-footer a:hover {
+  text-decoration: none;
 }
